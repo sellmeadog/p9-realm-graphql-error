@@ -1,0 +1,21 @@
+{
+  "name": "p9-realm-graphql-error",
+  "version": "1.0.0",
+  "description": "Simplest reproduction of the error connecting to the Realm Cloud GraphQL service.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-boost": "^0.4.4",
+    "graphql": "^14.4.2",
+    "realm-graphql-client": "^1.4.0"
+  },
+  "devDependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
